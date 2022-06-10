@@ -1,0 +1,25 @@
+.menu{
+    background-color: plum;
+    width: 300px;
+    max-width: 300px;
+    height: 55px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &:first-child{
+        padding-left: 2rem;
+    }
+    &:first-child{
+        padding-right: 2rem;
+    }
+}
+.wrap{
+    position:fixed;
+    bottom: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
